@@ -13,11 +13,12 @@ namespace EFConsole
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
 
-            options.UseSqlServer("Data Source=(local);Initial Catalog=EFCore; Integrated Security=true; TrustServerCertificate=True");
+            options.UseSqlServer("Data Source=(local);Initial Catalog=EFCore2; Integrated Security=true; TrustServerCertificate=True");
         }
 
         public DbSet<Employee> Employees { get; set; }
-
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Course> Course { get; set; }
 
     }
 }

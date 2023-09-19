@@ -5,7 +5,7 @@
 namespace EFConsole.Migrations
 {
     /// <inheritdoc />
-    public partial class EFCore : Migration
+    public partial class someUpdates : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
